@@ -1,0 +1,51 @@
+@media screen and (max-width: 930px) {
+    .filmePrincipal article h5 {
+        width: 50%;
+    }
+
+    .cabecalho {
+        height: 500px;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .filmePrincipal article h5 {
+        width: 70%;
+    }
+
+    .cabecalho {
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .ladoDireitoNav img:nth-child(2) {
+        display:none;
+    }
+
+    .ladoDireitoNav img:nth-child(3) {
+        display:none;
+    }
+
+    .filmePrincipal article h3 {
+        font-size: 30px;
+    }
+
+    .filmePrincipal article h5 {
+        font-size: 0.7em;
+    }
+
+    .botoesFilmePrincipal button:nth-child(1) h4 {
+        margin: 5px 10px 5px 5px;
+        font-size: 0.8em;
+    }
+
+    .botoesFilmePrincipal button:nth-child(2) h4 {
+        margin: 5px 10px 5px 5px;
+        font-size: 0.8em;
+    }
+    
+}
+

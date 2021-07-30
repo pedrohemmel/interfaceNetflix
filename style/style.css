@@ -1,0 +1,230 @@
+/*################################ VARIÁVEIS #################################*/
+
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+/*################################ VARIÁVEIS #################################*/
+
+/*################################ CORPO #################################*/
+body {
+    background-color: var(--preta);
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Nada vai ultrapassar a borda da pagina*/
+}
+
+/*################################ CORPO #################################*/
+
+/*################################ HEADER #################################*/
+
+.cabecalho {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to bottom, transparent, transparent, transparent, transparent, #141414a1, #141414b1, #141414d1, #141414ff), url('images/filmePrincipal.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.cabecalho nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ladoEsquerdoNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ladoEsquerdoNav a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 0.7em;
+}
+
+.ladoEsquerdoNav a:hover {
+    color: white;
+}
+
+.ladoEsquerdoNav img {
+    margin-left: 30px;
+}
+
+.ladoDireitoNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ladoDireitoNav img {
+    margin-right: 30px;
+
+    cursor: pointer;
+}
+
+.ladoDireitoNav img:nth-child(3) {
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+/*######################### FILME PRINCIPAL #############################*/
+
+.filmePrincipal {
+    height: 100%;
+    width: 100%;
+}
+
+.filmePrincipal article {
+    width: 100%;
+    height: 100%;
+
+    font-size: 16px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 30px;    
+}
+
+.filmePrincipal article h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.filmePrincipal article h5 {
+    width: 30%;
+
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/*######################### FILME PRINCIPAL #############################*/
+
+/*######################### BOTOES #############################*/
+
+.botoesFilmePrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botoesFilmePrincipal button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: none;
+
+    margin-right: 5px;
+
+    cursor: pointer;
+}
+
+.botoesFilmePrincipal button:nth-child(1) {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.botoesFilmePrincipal button:nth-child(2) {
+    background-color: #141414cf;
+    transition: 0.2s;
+}
+
+.botoesFilmePrincipal button:nth-child(1):hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.botoesFilmePrincipal button:nth-child(2):hover {
+    background-color: #1414147f;
+}
+
+.botoesFilmePrincipal button:nth-child(1) h4 {
+    margin: 8px 15px 8px 8px;
+
+}
+
+.botoesFilmePrincipal button:nth-child(1) img {
+    margin-left: 8px; 
+
+}
+
+.botoesFilmePrincipal button:nth-child(2) h4 {
+    margin: 8px 15px 8px 8px;
+    color: white;
+}
+
+.botoesFilmePrincipal button:nth-child(2) img {
+    margin-left: 8px; 
+
+}
+
+/*######################### BOTOES #############################*/
+
+/*################################ HEADER #################################*/
+
+/*################################ CORPO #################################*/
+
+/*######################### CARROSSEL FILMES #############################*/
+.carrosselFilmes h4 {
+    color: white;
+
+    margin: 0 0 10px 30px;
+}
+/*######################### CARROSSEL FILMES #############################*/
+
+/*################################ CORPO #################################*/
+
+/*################################ PÉ #################################*/
+    footer {
+        width: 100%;
+    }
+
+    .direcionamentoBlog {
+        width: 40%;
+
+        margin: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direcionamentoBlog img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .direcionamentoBlog p {
+        padding: 0 10px;
+
+        color: white;
+
+        text-align: justify;
+    }
+
+    .direcionamentoBlog p a {
+        color: white;
+
+        text-align: justify;
+    }
+
+    .direcionamentoBlog p a:hover {
+
+        font-weight: bold;
+    }
+/*################################ PÉ #################################*/
